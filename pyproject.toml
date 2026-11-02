@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "editorjam1-gpuops_jd179"
+name = "editorjam1-annotation_agreement_bias_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出GPU 集群运维工程师·标注一致性与标注者偏差上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://editorjam1.github.io"
-Repository = "https://github.com/editorjam1/gpuops_jd179"
-Issues = "https://github.com/editorjam1/gpuops_jd179/issues"
+Repository = "https://github.com/editorjam1/annotation_agreement_bias_count_trace"
+Issues = "https://github.com/editorjam1/annotation_agreement_bias_count_trace/issues"
 
 [project.scripts]
-gpuops_jd179 = "gpuops_jd179:main"
+annotation_agreement_bias_count_trace = "annotation_agreement_bias_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["gpuops_jd179"]
+py-modules = ["annotation_agreement_bias_count_trace"]
